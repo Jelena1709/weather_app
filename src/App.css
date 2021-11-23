@@ -1,0 +1,190 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(51, 51, 51);
+  
+  
+}
+
+
+button{
+  background-color: rgb(245,243,234);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  
+
+}
+.Logo {
+
+margin: 1rem;
+width: 90%;
+object-fit: cover;
+height: 130px;
+
+}
+
+header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px ;
+}
+header h2 {
+  padding-right: 90px;
+  padding-left: 20px;
+  color: rgb(3, 1, 3);
+}
+header a {
+  text-decoration: none;
+}
+header form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  width: 60%;
+  height: 80px;
+}
+header form input {
+  margin-right: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: rgb(8, 3, 3);
+}
+header form input::placeholder {
+  color: rgb(5, 3, 3);
+}
+.form-button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 1.2rem;
+  background-color: rgb(7, 5, 5);
+  color: whitesmoke;
+}
+header nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.red {
+  color: rgb(5, 3, 3);
+}
+header nav ul a li {
+  list-style: none;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.temperature {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  min-height: 300px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0px 20px #111;
+  
+}
+
+h4 {
+  color: rgb(103, 179, 150);
+  text-shadow: black;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+.temp {
+color: rgb(245, 243, 234);
+font-size: 80px;
+margin: 1px;
+
+
+}
+
+.feelslike {
+  margin-left: 0em;
+  text-align: left;
+}
+
+.maxmin  {
+  text-align: right;
+}
+
+.main-temp {
+  color: #f7eef4;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: black;
+}
+
+section,
+.details {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section h1 {
+  font-size: 3rem;
+  color: rgb(24, 16, 16);
+}
+section li {
+  list-style: none;
+}
+section a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+.details p {
+  color: rgb(15, 11, 11);
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+.details button,
+
+footer {
+  width: 100%;
+  height: 10%;
+}
+footer p {
+  padding: 15px;
+  color: #022230;
+  font-weight: bold;
+}
+
